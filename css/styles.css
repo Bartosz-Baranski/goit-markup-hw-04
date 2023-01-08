@@ -384,6 +384,17 @@ ul {
 .mooto-section {
   background-image: url(/images/motto.jpg);
   max-width: 1600px;
-  /* height: 600px; */
   background-size: cover;
+  box-shadow: 0 4 4px 0px rgba(0%, 0%, 0%, 25%);
+}
+.icon-rules {
+  fill: var(--main-text);
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  /* background-position: 50%;
+  background-size: 70px; */
+}
+.rules-icon {
+  width: 70px;
+  height: 70px;
 }
