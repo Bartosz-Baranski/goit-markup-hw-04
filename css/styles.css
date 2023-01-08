@@ -187,7 +187,8 @@ ul {
 .contact-header {
   display: flex;
   justify-content: space-between;
-  margin-left: 331px;
+  align-items: center;
+  margin-left: 305px;
   gap: 50px;
 }
 .mooto-section {
@@ -369,4 +370,13 @@ ul {
   display: block;
   width: 322px;
   padding-left: 0px;
+}
+.icon-header {
+  fill: var(--signatures);
+  margin-right: 10px;
+}
+.icon-header:hover,
+.icon-header:focus,
+.icon-header:active {
+  fill: var(--link-focus);
 }
