@@ -62,7 +62,7 @@ body {
 }
 .main-title {
   color: var(--logo-footer);
-  background-color: var(--baground);
+  /* background-color: var(--baground); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
@@ -201,6 +201,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 412px;
   gap: 30px;
 }
 .main-title {
@@ -379,4 +380,10 @@ ul {
 .icon-header:focus,
 .icon-header:active {
   fill: var(--link-focus);
+}
+.mooto-section {
+  background-image: url(/images/motto.jpg);
+  max-width: 1600px;
+  /* height: 600px; */
+  background-size: cover;
 }
