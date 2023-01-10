@@ -147,7 +147,9 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -183,7 +185,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 46px;
-  margin-left: 53px;
+  margin-left: 93px;
 }
 
 .contact-header {
@@ -420,10 +422,16 @@ ul {
   border-radius: 50px;
   background-color: var(--logo-footer);
 }
+
+.media-teamat:hover,
+.media-teamat:focus,
+.media-teamat:active {
+  background-color: var(--link-focus);
+}
 .icon-teamat:hover,
 .icon-teamat:focus,
 .icon-teamat:active {
-  fill: #2196f3;
+  fill: var(--logo-footer);
 }
 .icon-teamat {
   fill: rgba(175, 177, 184, 1);
