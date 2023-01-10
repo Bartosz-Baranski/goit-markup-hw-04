@@ -471,3 +471,39 @@ ul {
 .icon-media-footer {
   fill: var(--logo-footer);
 }
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tiitle-client {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.list-icons-clients {
+  display: flex;
+  gap: 30px;
+}
+.icon-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+}
+.icon-client:hover,
+.icon-client:focus,
+.icon-client:active {
+  border-color: var(--link-focus);
+}
+.icon-logo {
+  fill: #afb1b8;
+}
+.icon-logo:hover,
+.icon-logo:focus,
+.icon-logo:active {
+  fill: var(--link-focus);
+}
