@@ -144,10 +144,18 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+.join-to-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  color: rgba(255, 255, 255, 1);
+  margin: 0px;
+}
 
 ul {
   list-style-type: none;
   padding-left: 0px;
+  margin: 0px;
 }
 
 .container {
@@ -296,6 +304,12 @@ ul {
   flex-direction: column;
   justify-content: flex-start;
 }
+.media-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
 .logo-footer {
   display: block;
   width: 145px;
@@ -318,7 +332,11 @@ ul {
   display: block;
   padding-top: 9px;
 }
-
+.icon-footer {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 72px; */
+}
 .portfolio-list {
   display: flex;
   flex-direction: column;
@@ -402,7 +420,7 @@ ul {
   align-items: center;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--buttons-background);
   border-radius: 4px;
   margin: 0px;
   margin-bottom: 30px;
@@ -435,4 +453,21 @@ ul {
 }
 .icon-teamat {
   fill: rgba(175, 177, 184, 1);
+}
+.media-icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.media-icon-footer:hover,
+.media-icon-footer:active,
+.media-icon-footer:focus {
+  background-color: var(--link-focus);
+}
+.icon-media-footer {
+  fill: var(--logo-footer);
 }
