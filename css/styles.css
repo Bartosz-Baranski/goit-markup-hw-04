@@ -463,9 +463,9 @@ ul {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.media-icon-footer:hover,
-.media-icon-footer:active,
-.media-icon-footer:focus {
+.icon-media-footer:hover,
+.icon-media-footer:active,
+.icon-media-footer:focus {
   background-color: var(--link-focus);
 }
 .icon-media-footer {
